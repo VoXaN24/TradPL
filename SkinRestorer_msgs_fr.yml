@@ -1,0 +1,40 @@
+NOT_PLAYER: '&4Erreur&8: &cVous devez être un joueur!'
+NOT_ONLINE: '&4Erreur&8: &cLe joueur n'est pas en ligne!'
+SKIN_COOLDOWN_NEW: '&4Erreur&8: &cVous pouvez changer votre skin à nouveau &e%s &cseconds.'
+SKIN_CHANGE_SUCCESS: '&2Votre skin a été changée.'
+PLAYER_HAS_NO_PERMISSION: '&4Erreur&8: &cVous n'avez pas la permission de le faire.'
+SKIN_DISABLED: '&4Erreur&8: &cCe skin est désactivé par un administrateur.'
+UNKNOWN_COMMAND: '&cCommande inconnue. Tapper "/help" pour l'aide.'
+ALT_API_FAILED: '&4Erreur&8: &cL'API Skin Data est surchargée, veuillez réessayer plus tard!'
+NOT_PREMIUM: '&4Erreur&8: &cLe joueur Premium avec ce nom n'existe pas.'
+WAIT_A_MINUTE: '&4Erreur&8: &cS'il vous plaît attendez une minute avant de demander à nouveau de changer de skin.
+  (Taux limité)'
+GENERIC_ERROR: '&4Erreur&8: &cUne erreur est survenue lors de la demande de données de peau, veuillez réessayer plus tard
+SKIN_DATA_DROPPED: '&2dskin de %player copier.'
+SKIN_DATA_SAVED: '&2Votre Skin est sauvegarder.'
+SR_LINE: '&7&m----------------------------------------'
+HELP_PLAYER: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver%
+      &2/skin <skinname> &7-&f Changer votre skin.
+ADMIN_SET_SKIN: '&2Vous avez changer le skin de %player.'
+HELP_ADMIN: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver% &c&lAdmin
+
+      &2/sr config &7- &fpage d'aide pour les paramètres de configuration de jeu utiles
+      &2/sr set <player> <skin name> &7- &fChange le skin d'un joueur..
+      &2/sr drop <player> &7- &fCopier le skin du joueur.
+      &2/sr reload &7- &fReconfigurer
+      &2/sr props [player] &7- &fAffiche le skin réelle des joueurs en tant que propriétés
+HELP_CONFIG: |2-
+    &2&lSkinsRestorer &7- &c&lConfig
+
+      &2/sr joinSkins <true/false> &7- &fBascule les habillages à la connection.
+      &2/sr SkinWithoutPerm <true/false> &7- &fConfigure la section DisabledSkins.
+      &2/sr SkinExpiresAfter <time> &7- &fCombien de temps le skin est en cache.
+      &2/sr skinCooldown <time> &7- &f/skin temps de recharge en minutes.
+      &2/sr defaultSkins <true/false/add [skin]> &7- &fConfigure la section DefaultSkins.
+      &2/sr updater <true/false> &7- &fActiver/Désactiver les mise a jour
+RELOAD: '&2Config and Locale a été rechargé!'
+NO_SKIN_DATA: '&4Erreur&8: &cAucune donnée sur le skin acqui! Est-ce que ce joueur a un skin?'
+OUTDATED: "&4Vous utilisez une version obsolète de SKINSRESTORER!\n&cVeuillez mettre à jour\
+  \ vers la dernière version sur Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
