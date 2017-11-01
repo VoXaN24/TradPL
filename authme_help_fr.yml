@@ -1,0 +1,38 @@
+# Translation config for the AuthMe help, e.g. when /authme help or /authme help register is called
+
+# -------------------------------------------------------
+# List of texts used in the help section
+common:
+    header: '==========[ AuthMeReloaded HELP ]=========='
+    optional: 'Optional'
+    hasPermission: 'You have permission'
+    noPermission: 'No permission'
+    default: 'Default'
+    result: 'Result'
+# Traduit par VoXaN24 -> https://github.com/VoXaN24
+    defaultPermissions:
+        notAllowed: 'Non Autoriser'
+        opOnly: 'OP uniquement'
+        allowed: 'Tout le monde peut'
+
+
+section:
+    command: 'Commande'
+    description: 'Description courte'
+    detailedDescription: 'Description détailler'
+    arguments: 'Arguments'
+    permissions: 'Permissions'
+    alternatives: 'Alternatives'
+    children: 'Commandes'
+
+
+commands:
+    authme.register:
+        description: 'Enregister un joueur'
+        detailedDescription: 'Enregistrer le joueur spécifié avec le mot de passe spécifié.'
+        arg1:
+            label: 'player'
+            description: 'Pseudo'
+        arg2:
+            label: 'password'
+            description: 'Mot De Passe'
